@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  
+}
+
+.title{
+ 
+  padding: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  background-color:lemonchiffon;
+  font-weight: bold;
+  color: black;
+ 
+}
+
+.nav-styles{
+  padding: 10px;
+  width: 100%;
+  align-content: center;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.nav-button{
+  border: 1px solid black;
+  padding: 10px; 
+  border-radius: 5px;
+  background-color: inherit;
+  
+}
+ .nav-button:hover{
+  background-color:red;
+  border: none;
+ }
+
+
+footer{
+ font-size: large;
+ font-weight: bolder;
+  padding: 10px;
+  width: 100%;
+  background-color: greenyellow;
+  
+
+
+}
+.dot{
+ 
+  font-size: medium;
+  font-weight: 800;
+  justify-content: flex-end;
+
+}
+.user-content{
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  background-color:lavenderblush;
+
+
+  
+
+}
+.user-card{
+  background-color: yellow;
+  border-radius: 5px;
+  width: 250px;
+  height: 300px;
+  color: black;
+ 
+  
+}
+.btn{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.edit-btn:hover{
+  background-color: yellowgreen;
+}
+
+.del-btn:hover{
+  background-color: orangered;
+}
+.view-btn:hover{
+  background-color: aqua;
+}
+
+.children{
+  height: 100vh;
+  margin: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.text-areas{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 12px;
+}
